@@ -6,6 +6,7 @@ import time
 import os
 
 
+
 """
 Notes: 
 
@@ -36,7 +37,7 @@ eval_interval = 10  # Set to 1 at final testing to create snapshot at every iter
 start_noisy = False
 patch_size = 20
 image_path = "./Images/Star.jpg"
-save_image_dir = "./CreatedImages/PE_temp2/"
+save_image_dir = "./CreatedImages/PE_Images/"
 os.makedirs(save_image_dir, exist_ok=True)
 # -----------------------------------
 

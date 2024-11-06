@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 
+
 # Function to perform the 2D DFT
 def compute_dft(image):
     # Apply 2D Fast Fourier Transform (FFT)
@@ -17,6 +18,7 @@ def compute_dft(image):
     magnitude_log = np.log(magnitude + 1)  # Adding 1 to avoid log(0)
 
     return magnitude_log
+
 
 # Function to read image and split into RGB channels
 def load_image(image_path):
