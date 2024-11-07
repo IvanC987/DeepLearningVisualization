@@ -1,5 +1,5 @@
 """
-This will be the explanation of how the values for PE was calculated within the forward pass to serve as documentation
+Just a quick explanation of how the values for PE was calculated within the forward pass to serve as documentation for myself
 
 * PE = Polynomial Expansion
 
